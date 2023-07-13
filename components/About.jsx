@@ -28,14 +28,10 @@ const About = () => {
                         After my contract finished I started learning
                         JavaScript,HTML & CSS and I was quickly drown to learn
                         more.I am now spending my time building projects with
-                        React JS, soon with TypeScript also and learning every
-                        day how to do it better.
-                    </p>
-                    <p className="py-2 text-gray-600 underline cursor-pointer">
-                        Check out some of my latest projects.
+                        React JS and learning every day how to do it better.
                     </p>
                 </div>
-                <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
+                <div className=" w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
                     <img
                         className="rounded-xl"
                         src="https://images.unsplash.com/photo-1555099962-4199c345e5dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"

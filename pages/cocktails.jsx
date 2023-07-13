@@ -1,12 +1,12 @@
 import Image from "next/image";
 import React from "react";
-import starWarsImg from "../public/assets/projects/project1.png";
+import cocktailsImg from "../public/assets/projects/CoctailsPub.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import "tailwindcss/tailwind.css";
 import Navbar from "@/components/Navbar";
 
-const StarWars = () => {
+const cocktails = () => {
     return (
         <div className="w-full">
             <Navbar />
@@ -16,32 +16,38 @@ const StarWars = () => {
                     className="absolute z-1"
                     layout="fill"
                     objectFit="cover"
-                    src={starWarsImg}
+                    src={cocktailsImg}
                     alt="/"
                 />
                 <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
                     <h2 className="py-2 font-bold text-3xl sm:text-4xl">
-                        Star Wars
+                        Cocktails Pub
                     </h2>
-                    <h3 className="font-bold">React JS / Tailwind / Vercel</h3>
+                    <h3 className="font-bold">
+                        React JS / Styled Components / Vercel
+                    </h3>
                 </div>
             </div>
 
             <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8">
                 <div className="col-span-4">
-                    <h2 className="font-bold ">Project Overview</h2>
+                    <h2 className="font-bold">Project Overview</h2>
                     <br />
                     <p>
                         This app was built using React JS and styled components
-                        and is hosted on Vercel.The website is a Star
-                        Wars-themed application that utilizes the Star Wars API
-                        (SWAPI) to fetch and display information about Star Wars
-                        characters, movies, species, vehicles. It provides an
-                        interactive interface for users to explore the world of
-                        Star Wars and learn more about it.
+                        and is hosted on Vercel.The app offers an immersive and
+                        visually appealing experience for cocktail enthusiasts.
+                        Leveraging the powerful CocktailDB API, the website
+                        serves as a hub for cocktail lovers to explore and
+                        discover a wide range of exciting drink recipes. The
+                        app's stylish design, crafted with the help of styled
+                        components, ensures a sleek and intuitive user
+                        interface. Users can easily navigate through various
+                        sections and access a wealth of information about their
+                        favorite cocktails.
                     </p>
                     <a
-                        href="https://github.com/DoychinAlexandrov/Star-Wars"
+                        href="https://github.com/DoychinAlexandrov/Coctails-pub"
                         target="_blank"
                         rel="noreferrer"
                     >
@@ -50,7 +56,7 @@ const StarWars = () => {
                         </button>
                     </a>
                     <a
-                        href="https://star-wars-flax-nu.vercel.app/"
+                        href="https://coctails-pub.vercel.app/"
                         target="_blank"
                         rel="noreferrer"
                     >
@@ -69,7 +75,8 @@ const StarWars = () => {
                                 <RiRadioButtonFill className="pr-1" /> React
                             </p>
                             <p className="text-gray-600 py-2 flex items-center">
-                                <RiRadioButtonFill className="pr-1" /> Tailwind
+                                <RiRadioButtonFill className="pr-1" /> Styled
+                                Components
                             </p>
                             <p className="text-gray-600 py-2 flex items-center">
                                 <RiRadioButtonFill className="pr-1" />{" "}
@@ -79,7 +86,8 @@ const StarWars = () => {
                                 <RiRadioButtonFill className="pr-1" /> Vercel
                             </p>
                             <p className="text-gray-600 py-2 flex items-center">
-                                <RiRadioButtonFill className="pr-1" /> SWAPI
+                                <RiRadioButtonFill className="pr-1" /> The
+                                Cocktail DB
                             </p>
                         </div>
                     </div>
@@ -92,4 +100,4 @@ const StarWars = () => {
     );
 };
 
-export default StarWars;
+export default cocktails;

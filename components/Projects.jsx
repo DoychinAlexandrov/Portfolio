@@ -22,7 +22,7 @@ const Projects = () => {
                     <ProjectItem
                         title="Cocktail Pub"
                         backgroundImg={cocktailsPubImg}
-                        projectUrl="/starwars"
+                        projectUrl="/cocktails"
                     />
                 </div>
             </div>
