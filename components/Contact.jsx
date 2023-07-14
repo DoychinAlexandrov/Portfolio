@@ -1,7 +1,6 @@
 import Link from "next/link";
 import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import Image from "next/image";
@@ -19,12 +18,12 @@ const Contact = () => {
                 <div className="grid lg:grid-cols-5 gap-8">
                     {/* left */}
                     <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
-                        <div className="lg:p-4 h-full">
+                        <div className="lg:p-4 h-full flex flex-col justify-center items-center">
                             <div>
                                 <img
                                     className="rounded-xl hover:scale-105 ease-in duration-300"
                                     src="https://images.unsplash.com/photo-1548174753-897b449b097e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80"
-                                    alt=""
+                                    alt="/"
                                 />
                             </div>
                             <div>
@@ -32,8 +31,8 @@ const Contact = () => {
                                 <p>Front-End Developer</p>
                                 <p className="py-4">
                                     I am available for full-time positions as an
-                                    Intern or Junior Front-End developer.Contact
-                                    me and let's talk
+                                    Intern or Junior Front-End developer.
+                                    Contact me and let's talk.
                                 </p>
                             </div>
                             <div>
@@ -69,8 +68,20 @@ const Contact = () => {
                         </div>
                     </div>
                     {/* right */}
-                    <div className="  shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-                        <Image className="rounded-xl max-w-xl" src={quoteImg} />
+                    <div className="col-span-2 lg:col-span-3 flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
+                        <div className="max-w-full">
+                            <h1 className="text-3xl mb-4 text-center underline">
+                                Quote of the Day
+                            </h1>
+                            <Image
+                                className="rounded-xl"
+                                src={quoteImg}
+                                layout="responsive"
+                                width={800}
+                                height={800}
+                                alt="/"
+                            />
+                        </div>
                     </div>
                 </div>
 
