@@ -13,7 +13,7 @@ const About = () => {
                     </p>
                     <h2 className="p-4">Who I Am</h2>
                     <p className="py-2 text-gray-600">
-                        // I am your new developer
+                        $ I am your new developer
                     </p>
                     <p className="py-2 text-gray-600">
                         I have been working as a mechanical engineer on a ship

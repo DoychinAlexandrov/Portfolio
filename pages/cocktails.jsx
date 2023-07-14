@@ -40,8 +40,8 @@ const cocktails = () => {
                         Leveraging the powerful CocktailDB API, the website
                         serves as a hub for cocktail lovers to explore and
                         discover a wide range of exciting drink recipes. The
-                        app's stylish design, crafted with the help of styled
-                        components, ensures a sleek and intuitive user
+                        app&apos;s stylish design, crafted with the help of
+                        styled components, ensures a sleek and intuitive user
                         interface. Users can easily navigate through various
                         sections and access a wealth of information about their
                         favorite cocktails.
