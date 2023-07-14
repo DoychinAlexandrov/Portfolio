@@ -36,7 +36,7 @@ const StarWars = () => {
                         and is hosted on Vercel.The website is a Star
                         Wars-themed application that utilizes the Star Wars API
                         (SWAPI) to fetch and display information about Star Wars
-                        characters, movies, species, vehicles. It provides an
+                        characters, movies, species & vehicles. It provides an
                         interactive interface for users to explore the world of
                         Star Wars and learn more about it.
                     </p>

@@ -6,6 +6,7 @@ import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { usePathname } from "next/navigation";
+import logo from "../public/assets/da_thumbnail.png";
 
 const Navbar = () => {
     const emailAddress = "doychin_alexandrov@abv.bg";
@@ -52,7 +53,7 @@ const Navbar = () => {
             <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
                 <Link href="/">
                     <Image
-                        src="/../public/assets/da_thumbnail.png"
+                        src={logo}
                         alt="/"
                         width="125"
                         height="50"
