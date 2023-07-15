@@ -23,7 +23,9 @@ const StarWars = () => {
                     <h2 className="py-2 font-bold text-3xl sm:text-4xl">
                         Star Wars
                     </h2>
-                    <h3 className="font-bold">React JS / Tailwind / Vercel</h3>
+                    <h3 className="font-bold">
+                        React JS / Styled Components / Vercel
+                    </h3>
                 </div>
             </div>
 
@@ -69,7 +71,8 @@ const StarWars = () => {
                                 <RiRadioButtonFill className="pr-1" /> React
                             </p>
                             <p className="text-gray-600 py-2 flex items-center">
-                                <RiRadioButtonFill className="pr-1" /> Tailwind
+                                <RiRadioButtonFill className="pr-1" /> Styled
+                                Components
                             </p>
                             <p className="text-gray-600 py-2 flex items-center">
                                 <RiRadioButtonFill className="pr-1" />{" "}
