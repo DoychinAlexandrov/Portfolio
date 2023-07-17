@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import projectImg from "../public/assets/projects/project1.png";
 import cocktailsPubImg from "../public/assets/projects/CoctailsPub.png";
+import ecomerceImg from "../public/assets/projects/ecomerce.png";
 import Link from "next/link";
 import ProjectItem from "./ProjectItem";
 
@@ -23,6 +24,11 @@ const Projects = () => {
                         title="Cocktail Pub"
                         backgroundImg={cocktailsPubImg}
                         projectUrl="/cocktails"
+                    />
+                    <ProjectItem
+                        title="E-commerce"
+                        backgroundImg={ecomerceImg}
+                        projectUrl="/ecomerce"
                     />
                 </div>
             </div>

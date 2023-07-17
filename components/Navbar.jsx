@@ -17,7 +17,11 @@ const Navbar = () => {
     const pathname = usePathname();
 
     useEffect(() => {
-        if (pathname === "/starwars" || pathname === "/cocktails") {
+        if (
+            pathname === "/starwars" ||
+            pathname === "/cocktails" ||
+            pathname === "/ecomerce"
+        ) {
             setNavBg("transparent");
             setLinkColor("#ecf0f3");
         } else {
