@@ -20,7 +20,8 @@ const Navbar = () => {
         if (
             pathname === "/starwars" ||
             pathname === "/cocktails" ||
-            pathname === "/ecomerce"
+            pathname === "/ecomerce" ||
+            pathname === "/techstore"
         ) {
             setNavBg("transparent");
             setLinkColor("#ecf0f3");
